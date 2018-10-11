@@ -3805,3 +3805,16 @@ setups.}},
 }
 
 
+@article{HAMON2019435,
+title = "Multi-level spectral deferred corrections scheme for the shallow water equations on the rotating sphere",
+journal = "Journal of Computational Physics",
+volume = "376",
+pages = "435 - 454",
+year = "2019",
+issn = "0021-9991",
+doi = "https://doi.org/10.1016/j.jcp.2018.09.042",
+url = "http://www.sciencedirect.com/science/article/pii/S0021999118306442",
+author = "François P. Hamon and Martin Schreiber and Michael L. Minion",
+keywords = "High-order time integration, Multi-level spectral deferred corrections, Implicit–explicit splitting, Atmospheric flows, Shallow-water equations on the rotating sphere, Spherical harmonics",
+abstract = "Efficient time integration schemes are necessary to capture the complex processes involved in atmospheric flows over long periods of time. In this work, we propose a high-order, implicit–explicit numerical scheme that combines Multi-Level Spectral Deferred Corrections (MLSDC) and the Spherical Harmonics (SH) transform to solve the wave-propagation problems arising from the shallow-water equations on the rotating sphere. The iterative temporal integration is based on a sequence of corrections distributed on coupled space–time levels to perform a significant portion of the calculations on a coarse representation of the problem and hence to reduce the time-to-solution while preserving accuracy. In our scheme, referred to as MLSDC-SH, the spatial discretization plays a key role in the efficiency of MLSDC, since the SH basis allows for consistent transfer functions between space–time levels that preserve important physical properties of the solution. We study the performance of the MLSDC-SH scheme with shallow-water test cases commonly used in numerical atmospheric modeling. We use this suite of test cases, which gradually adds more complexity to the nonlinear system of governing partial differential equations, to perform a detailed analysis of the accuracy of MLSDC-SH upon refinement in time. We illustrate the stability properties of MLSDC-SH and show that the proposed scheme achieves up to eighth-order convergence in time. Finally, we study the conditions in which MLSDC-SH achieves its theoretical speedup, and we show that it can significantly reduce the computational cost compared to single-level Spectral Deferred Corrections (SDC)."
+}
